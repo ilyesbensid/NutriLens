@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 45px;
+}
+
+p {
+  font-size: 20px;
+}
+
+input {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  background: white;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 15px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriLens</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+
+<div class="logo">
+
+🥗 NutriLens
+
+</div>
+
+<ul>
+
+<li><a href="#">الرئيسية</a></li>
+
+<li><a href="#">تحليل الوجبة</a></li>
+
+<li><a href="#">المميزات</a></li>
+
+<li><a href="login.html">تسجيل الدخول</a></li>
+
+</ul>
+
+</nav>
+    <div class="container">
+
+        <h1>🥗 NutriLens</h1>
+
+<h3>
+حلل وجبتك بالذكاء الاصطناعي
+</h3>
+<p id="description">
+📸 التقط صورة لأي وجبة، وسيقوم الذكاء الاصطناعي بتحليلها وإظهار:
+<br><br>
+✅ السعرات الحرارية
+<br>
+🥩 البروتين
+<br>
+🍚 الكربوهيدرات
+<br>
+🥑 الدهون
+<br>
+💊 الفيتامينات
+<br>
+⭐ تقييم الوجبة
+</p>
+
+        <p>
+            ارفع صورة وجبتك وسأخبرك إذا كانت صحية أم لا
+        </p>
+
+        <label class="upload-box">
+
+<input type="file" id="imageInput" accept="image/*" hidden>
+
+<span id="uploadText">
+📷 اضغط هنا لاختيار صورة
+</span>
+
+</label>
+
+
+        <br><br>
+
+        <button id="analyzeBtn">
+            تحليل الوجبة
+        </button>
+
+        <img id="preview" width="300" style="display:none; margin-top:20px; border-radius:10px;">
+
+<div id="resultCard">
+
+<h2>نتيجة التحليل</h2>
+
+<div id="result">
+لم يتم تحليل أي وجبة بعد
+</div>
+
+</div>
+
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
